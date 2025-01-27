@@ -3,6 +3,8 @@ Repository for Terraform-101 Udemy course with Mark Tinderholdt.
 
 Repo contains written notes (kept in this readme.md), and various snippets of terraform code.
 
+The course https://www.udemy.com/course/terraform-101-azure-edition/
+
 
 # Key Terminology
 
