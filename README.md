@@ -21,6 +21,10 @@ Immutability is a principle that aligns with the c oncept of infrastructure as c
 
 Managing mutable control planes such as manually changing an OS config, cloud control plane, by creating artifacts with a desired state of a configuration so that we can deployments back to a known state. By combining version control (Git) with infrastructure as code (Terraform), we have a full history of artifacts of desired states.
 
+<b>Encapsulation</b> - fundamental concept of object-orientated programming, refers to the bundling of data & methods that operate on that data within a single unit, typically a class. Direct access to some of an object's components are restricted, which can help prevent unintended interference.
+
+Terraform works by encapsulating functionality inside of your terraform modules. 
+
 
 
 
