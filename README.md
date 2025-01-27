@@ -36,3 +36,5 @@ A highly cohesive Terraform module has a single, well-defined responsibility. A 
 <b>DRY - Don't Repeat Yourself</b><br> Has its root in object-orientated programming. Reduce the risks of mistakes by reducing copy/pasta code into more efficient code by abstracting common functionality into reusable components, functions, or modules. For example, instead of writing the same validation logic for multiple parts of an application, you can create a single validation function and call it whenever needed.
 
 This can be a challenge with Terraform & IaC - as technical elegance can create added complexity, and this may be counter-intuative to infrastructure declarations. You shouldn't need a PhD in Physics to determine how an EC2 instance will be configured in AWS due to overly complex DRY implementations of IaC.
+
+Often find that a WET approach is more suitable for IaC - Write Everything Twice, prioritising simplicy and clarity and predictability over technical elegance. 
