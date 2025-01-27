@@ -25,7 +25,7 @@ Managing mutable control planes such as manually changing an OS config, cloud co
 
 Terraform works by encapsulating functionality inside of your terraform modules. 
 
-<b>Cohesion<b></b> Cohesion refers to how closely related and focused the responsibilities of a single module or component are. High cohesion means that the elements within a module are highly related and work together to achieve a single, well-defined purpose. Low cohesion indicates that a module has unrelated respsonibilities and lacks a clear focus.
+<b>Cohesion</b><br> Cohesion refers to how closely related and focused the responsibilities of a single module or component are. High cohesion means that the elements within a module are highly related and work together to achieve a single, well-defined purpose. Low cohesion indicates that a module has unrelated respsonibilities and lacks a clear focus.
 
 A highly cohesive Terraform module has a single, well-defined responsibility. A module for creating an Azure Blob Container should only contain resources & configurations related to the blob container, not unrelated resources like a VM or VNET. Think of cohesion as categorisation and organising components or modules into a logical & cohesive structure.
 
